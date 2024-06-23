@@ -1,4 +1,5 @@
-# Object-Detection-Electrical-Elements
+
+# Object Detection Electrical Elements
 This project aims to detect objects in electrical installations and high-voltage switchboards, specifically:
 
 * Electrical components: 2 and 3-pole circuit breakers and relays.
