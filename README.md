@@ -8,6 +8,11 @@ This project aims to detect objects in electrical installations and high-voltage
 * Description:
 The project utilizes a Jetson Nano board and relies on the MobilNet v2 and SSD machine learning models to detect the target objects with accuracy and efficiency.
 
+[LabelMe](https://github.com/labelmeai/labelme)
+[Roboflow](https://roboflow.com/convert/labelbox-json-to-pascal-voc-xml)
+[Hello AI World](https://github.com/dusty-nv/jetson-inference)
+
+
 * Features:
 Real-time detection of electrical components in images and videos.
 Lightweight and efficient machine learning model, ideal for running on Jetson Nano.
