@@ -3,6 +3,7 @@
 This project aims to detect objects in electrical installations and high-voltage switchboards, specifically:
 
 * Electrical components: 2 and 3-pole circuit breakers and relays.
+![classes](https://github.com/XaVaMi/Object-Detection-Electrical-Elements/assets/173626888/991b5212-f5de-472a-899b-36f28bbd6af4)
 
 * Description:
 The project utilizes a Jetson Nano board and relies on the MobilNet v2 and SSD machine learning models to detect the target objects with accuracy and efficiency.
