@@ -40,4 +40,9 @@ Detected electrical components will be highlighted with bounding boxes and label
 
 ## Data augmentation tools
 
+
+
+![mosaic_explanation](https://github.com/XaVaMi/Object-Detection-Electrical-Elements/assets/173626888/a2795105-a41f-44d6-be4d-efdb34a8be3a)
+
+
 ## Object detection
