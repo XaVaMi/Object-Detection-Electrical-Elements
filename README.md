@@ -44,6 +44,9 @@ Detected electrical components will be highlighted with bounding boxes and label
 
 If you have many annotations of a class, in order not to further aggravate the imbalance problem, you can select the class to be eliminated and apply the effects of augmentation to the image to increase the number of annotations of lesser representation, ignoring and not increasing the selected one. If no class is selected, it applies the effects to the entire image. The effects generated to the images and annotations are shear, scale and rotation.
 
+![Captura de pantalla 2024-06-24 a les 4 50 45](https://github.com/XaVaMi/Object-Detection-Electrical-Elements/assets/173626888/7c12a6bf-ed1d-41a8-bd62-a67846f3de6c)
+
+
 
 **Creating a mosaic for augmentation** with 
 [`mosaic_generation.py`](https://github.com/XaVaMi/Object-Detection-Electrical-Elements/blob/main/Data%20augmentation%20tools/mosaic_generation.py) file. 
