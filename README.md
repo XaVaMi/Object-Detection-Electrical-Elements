@@ -39,8 +39,15 @@ Detection from image and video resources is also possible.
 Detected electrical components will be highlighted with bounding boxes and labels and saved in a csv file.
 
 ## Data augmentation tools
+**Simple augmentation** with
+[`data_aug_electrical.py`](https://github.com/XaVaMi/Object-Detection-Electrical-Elements/blob/main/Data%20augmentation%20tools/data_aug_electrical.py) file. If you have many annotations of a class, in order not to further aggravate the imbalance problem, you can select the class to be eliminated and apply the effects of augmentation to the image to increase the number of annotations of lesser representation, ignoring and not increasing the selected one. If no class is selected, it applies the effects to the entire image. The following effects are generated: 
 
+* 
+* 
+* 
 
+**Creating a mosaic for augmentation** with 
+[`mosaic_generation.py`](https://github.com/XaVaMi/Object-Detection-Electrical-Elements/blob/main/Data%20augmentation%20tools/mosaic_generation.py) file.
 
 ![mosaic_explanation](https://github.com/XaVaMi/Object-Detection-Electrical-Elements/assets/173626888/a2795105-a41f-44d6-be4d-efdb34a8be3a)
 
