@@ -37,3 +37,7 @@ Run the object detection script: python electrical_detect.py
 The object detection script will display a live feed from the Jetson Nano's camera.
 Detection from image and video resources is also possible.
 Detected electrical components will be highlighted with bounding boxes and labels and saved in a csv file.
+
+## Data augmentation tools
+
+## Object detection
