@@ -40,16 +40,19 @@ Detected electrical components will be highlighted with bounding boxes and label
 
 ## Data augmentation tools
 **Simple augmentation** with
-[`data_aug_electrical.py`](https://github.com/XaVaMi/Object-Detection-Electrical-Elements/blob/main/Data%20augmentation%20tools/data_aug_electrical.py) file. If you have many annotations of a class, in order not to further aggravate the imbalance problem, you can select the class to be eliminated and apply the effects of augmentation to the image to increase the number of annotations of lesser representation, ignoring and not increasing the selected one. If no class is selected, it applies the effects to the entire image. The following effects are generated: 
+[`data_aug_electrical.py`](https://github.com/XaVaMi/Object-Detection-Electrical-Elements/blob/main/Data%20augmentation%20tools/data_aug_electrical.py) file. 
 
-* 
-* 
-* 
+If you have many annotations of a class, in order not to further aggravate the imbalance problem, you can select the class to be eliminated and apply the effects of augmentation to the image to increase the number of annotations of lesser representation, ignoring and not increasing the selected one. If no class is selected, it applies the effects to the entire image. The effects generated to the images and annotations are shear, scale and rotation.
+
 
 **Creating a mosaic for augmentation** with 
-[`mosaic_generation.py`](https://github.com/XaVaMi/Object-Detection-Electrical-Elements/blob/main/Data%20augmentation%20tools/mosaic_generation.py) file.
+[`mosaic_generation.py`](https://github.com/XaVaMi/Object-Detection-Electrical-Elements/blob/main/Data%20augmentation%20tools/mosaic_generation.py) file. 
+
+The idea of ​​this code is for a class of which there is little representation, from a label in an image, to obtain multiple new copies to expand the number of this category. Mainly these generated mosaics should be collected in the train subset since, although we provide our model with many examples to learn during training, it will easily find them on the black background. To challenge the model, let's use real images, expanded with techniques to expand our dataset or not, and let's make it work!
 
 ![mosaic_explanation](https://github.com/XaVaMi/Object-Detection-Electrical-Elements/assets/173626888/a2795105-a41f-44d6-be4d-efdb34a8be3a)
 
+> [!NOTE]
+> These augmentation code files are prepared for LabelMe json files annotations.
 
 ## Object detection
