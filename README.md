@@ -6,12 +6,7 @@ This project aims to detect objects in electrical installations and high-voltage
 ![classes](https://github.com/XaVaMi/Object-Detection-Electrical-Elements/assets/173626888/991b5212-f5de-472a-899b-36f28bbd6af4)
 
 * Description:
-The project utilizes a Jetson Nano board and relies on the MobilNet v2 and SSD machine learning models to detect the target objects with accuracy and efficiency.
-
-[LabelMe](https://github.com/labelmeai/labelme)
-[Roboflow](https://roboflow.com/convert/labelbox-json-to-pascal-voc-xml)
-[Hello AI World](https://github.com/dusty-nv/jetson-inference)
-
+The project utilizes a Jetson Nano board, following tutorials from [Hello AI World](https://github.com/dusty-nv/jetson-inference), and relies on the MobilNet v2 and SSD machine learning models to detect the target objects with accuracy and efficiency. In order to train the model, repository files for training and evaluation are modified from [Pytorch SSD](https://github.com/qfgaohao/pytorch-ssd). The labeling and annotation of the images has been done with [LabelMe](https://github.com/labelmeai/labelme) and the conversion of the json annotations to XML for training with [Roboflow](https://roboflow.com/convert/labelbox-json-to-pascal-voc-xml).
 
 * Features:
 Real-time detection of electrical components in images and videos.
@@ -20,10 +15,11 @@ High accuracy and detection rates.
 Easy to use and customize.
 
 * Prerequisites:
-Jetson Nano board
+Jetson Nano board with
 NVIDIA JetPack operating system
 OpenCV
 TensorFlow
+Pytorch. Webcam.
 
 * Installation:
 Clone this repository to your Jetson Nano.
@@ -31,7 +27,7 @@ Install the required dependencies:
 OpenCV
 TensorFlow
 Download the pre-trained MobilNet v2 and SSD machine learning models.
-Run the object detection script: python electrical_detect.py
+Run the object detection script: python [`electrical_detect.py`]()
 
 * Usage:
 The object detection script will display a live feed from the Jetson Nano's camera.
