@@ -54,4 +54,5 @@ The idea of ​​this code is for a class of which there is little representati
 > [!NOTE]
 > These augmentation code files are prepared for LabelMe json files annotations.
 
-## Object detection
+## Object detection examples
+
