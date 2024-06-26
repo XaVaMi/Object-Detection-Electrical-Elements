@@ -55,4 +55,5 @@ The idea of ​​this code is for a class of which there is little representati
 > These augmentation code files are prepared for LabelMe json files annotations.
 
 ## Object detection examples
+In this video there is a small explanation of the motivation of the project and how it was born, as well as the process to bring it to completion. Some execution examples are also included in the brief report.
 
