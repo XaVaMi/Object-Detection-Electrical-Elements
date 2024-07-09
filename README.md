@@ -43,8 +43,6 @@ If you have many annotations of a class, in order not to further aggravate the i
 
 ![Captura de pantalla 2024-06-24 a les 4 50 45](https://github.com/XaVaMi/Object-Detection-Electrical-Elements/assets/173626888/7c12a6bf-ed1d-41a8-bd62-a67846f3de6c)
 
-
-
 **Creating a mosaic for augmentation** with 
 [`mosaic_generation.py`](https://github.com/XaVaMi/Object-Detection-Electrical-Elements/blob/main/Data%20augmentation%20tools/mosaic_generation.py) file. 
 
@@ -52,11 +50,13 @@ The idea of ​​this code is for a class of which there is little representati
 
 ![mosaic_explanation](https://github.com/XaVaMi/Object-Detection-Electrical-Elements/assets/173626888/a2795105-a41f-44d6-be4d-efdb34a8be3a)
 
+Similar to the previous code we have [`Mosaic_Augmentation.ipynb`](https://github.com/XaVaMi/Object-Detection-Electrical-Elements/blob/main/Data%20augmentation%20tools/Mosaic_Augmentation.ipynb) which is a Jupyter notebook. We can access our Drive files, select the classes to which we want to apply the mosaic and different effects. It can be applied only to those that are desired and the results can be viewed.
+
 > [!NOTE]
 > These augmentation code files are prepared for LabelMe json files annotations.
 
 ## Electrical Elements with dataset v01
-
+The following figure presents the diagram of the steps carried out.
 ![general_scheme](https://github.com/XaVaMi/Object-Detection-Electrical-Elements/assets/173626888/6625cdb9-a129-44cc-a067-30e8cbd35698)
 
 
