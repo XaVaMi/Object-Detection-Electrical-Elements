@@ -1,5 +1,7 @@
 
 # Object Detection of Electrical Elements
+This repository is part of a brief sample and report of a model for detecting objects of electrical elements that we find in switchboards and panels from low and high voltage installations. The model is part of a university project.
+
 ## Description of the project
 This project aims to detect objects in electrical installations and high-voltage switchboards, specifically:
 
@@ -28,7 +30,7 @@ Install the required dependencies:
 OpenCV
 TensorFlow
 Download the pre-trained MobilNet v2 and SSD machine learning models.
-Run the object detection script: python [`electrical_detect.py`]()
+Run the object detection script: python [`electrical.py`](https://github.com/XaVaMi/Object-Detection-Electrical-Elements/blob/main/EE01/electrical.py)
 
 * Usage:
 The object detection script will display a live feed from the Jetson Nano's camera.
@@ -65,3 +67,4 @@ The following figure presents the diagram of the steps carried out.
 ## Object detection examples
 In this video there is a small explanation of the motivation of the project and how it was born, as well as the process to bring it to completion. Some execution examples are also included in the brief report.
 
+[![Alt text](https://img.youtube.com/vi/R8wSWhmG0cw/0.jpg)](https://www.youtube.com/watch?v=R8wSWhmG0cw)
