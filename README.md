@@ -59,6 +59,8 @@ Similar to the previous code we have [`Mosaic_Augmentation.ipynb`](https://githu
 The following figure presents the diagram of the steps carried out.
 ![general_scheme](https://github.com/XaVaMi/Object-Detection-Electrical-Elements/assets/173626888/6625cdb9-a129-44cc-a067-30e8cbd35698)
 
+> [!WARNING]
+> The distribution and division for creating the subsets is 80% for train, 10% for valid and 10% for test.
 
 ## Object detection examples
 In this video there is a small explanation of the motivation of the project and how it was born, as well as the process to bring it to completion. Some execution examples are also included in the brief report.
